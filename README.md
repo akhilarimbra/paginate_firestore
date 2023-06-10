@@ -24,7 +24,10 @@ In your pubspec.yaml
 
 ```yaml
 dependencies:
-  paginate_firestore: # latest version
+  paginate_firestore:
+    git:
+      url: https://github.com/akhilarimbra/paginate_firestore
+      ref: master
 ```
 
 Import it
